@@ -13,7 +13,7 @@ const manas = "https://drive.google.com/uc?export=download&id=1P9B3oT8GPIX5OYYSA
 const manas_pr = "https://drive.google.com/uc?export=download&id=1xUCTAczAmZirZdok3rOvLCpZ3ht1s678";
 const manasi = "https://drive.google.com/uc?export=download&id=1cX2bOS0a2B9CXBuZKEwAPesD_0OzHVl7";
 const mayur = "https://drive.google.com/uc?export=download&id=1IWt97QUYU0puoJDQXaAQ1b2i9J8X16fn";
-const mehul = "https://drive.google.com/uc?export=download&id=1nSwW0JQfQRBLEIzyQ7CWKe8lFwavX8E0";
+const mehul = "https://drive.google.com/uc?export=download&id=1fT68-wvErxHXX7Ncsy4ug7wd9UufkgFE";
 const samrudhi = "https://drive.google.com/uc?export=download&id=1Hcc0rLRYka0HsX-59ZdQ3Oe2yO912xYV";
 
 const vedant = "https://drive.google.com/uc?export=download&id=14fTxlYoJpgLi_cBP3T6x3MyMSEf1XQmA";
@@ -69,7 +69,7 @@ export default function Teams() {
            
             <Member image={chetan} email={"madhav.surwase_comp22@pccoer.in"} phnNo={9075219569} linkedIn={"https://www.linkedin.com/in/madhav-surwase-072510259"}/>
             <Member image={mayur} linkedIn={"https://www.linkedin.com/in/atharv-bhagwat-5b68b8259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"} email={"atharva.bhagwat_comp22@pccoer.in"}  phnNo={8767835399}/>
-            <Member image={mehul} phnNo={9359954933} linkedIn={"https://www.linkedin.com/in/pranay-dhanve-075816259/"} email={"pranay.dhanve_comp22@pccoer.in"} />
+            <Member image={mehul} phnNo={8847747922} linkedIn={"https://www.linkedin.com/in/sumeet-g-52051128b"} email={"sumeet.gaware_mech22@pccoer.in"} />
             <Member image={dijvijay} phnNo={9975190027} linkedIn={"https://www.linkedin.com/in/digvijay-patil-a8b156203/"}/>
            
       </div>
