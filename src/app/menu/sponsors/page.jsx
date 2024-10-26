@@ -13,8 +13,13 @@ import "./sponsors.css";
     return(
 
       <>
-      <div className="sponsorsComing w-full h-full text-center relative bottom-16 text-4xl ">
-        <h2>Sponsors Coming Soon</h2></div></>
+      <div className="sponsor" style={{ }}>
+      <div className="sponsor_wrapper">
+<h3>Powered By</h3>
+        {/* <Image src={unstop} alt="" srcset="" /> */}
+        </div>
+  </div>
+      </>
 //     <div className="sponsor" style={{ }}>
 //        <div className="sponsor_wrapper">
 //          <h3>Technical Collaboration</h3>
@@ -39,6 +44,8 @@ import "./sponsors.css";
          
 //        </div>
 //       </div> 
+
+
     );
 }
 
