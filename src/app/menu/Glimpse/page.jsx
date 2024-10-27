@@ -271,7 +271,7 @@ const Gallery = () => {
     { instituteName: "MIT College of Engineering" },
   ]
 
-  const instituteList = institute.map((eachinstitute) =>
+  const instituteList = institute.map((eachinstitute, index) =>
     <div className='list-container bg-zinc-800 hover:bg-zinc-600 rounded-lg font-semibold' key={index}>{eachinstitute.instituteName}</div>
 
   )
