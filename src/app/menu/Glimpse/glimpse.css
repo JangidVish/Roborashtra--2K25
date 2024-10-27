@@ -11,6 +11,7 @@ body {
     gap: 2rem;
     position: relative;
     top: -2rem;
+    width: 100vw;
 }
 
 .gallery_wrapper h1 {
@@ -18,11 +19,12 @@ body {
     font-family: aroma;
     text-decoration: underline;
     text-decoration-color: orangered;
+    
 }
 
 .imgs {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
 }
 
@@ -33,3 +35,55 @@ body {
         gap: 2rem;
     }
 }
+
+.gallery_wrapper h3 {
+    font-size: 20px;
+    font-family: aroma;
+    text-decoration: underline;
+    text-decoration-color: orangered;
+    text-align: center;
+    margin-top: 50px;
+}
+.imgcam {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding-top: 20px;
+}
+.main-container-Institute{
+}
+.past-institute-container{
+    width:50vw;
+    height: 100vh;
+    margin-top: 80px;
+
+}
+.list-container{
+    width: 45vw;
+    padding: 15px;
+    display: flex;
+    margin-top: 30px;
+    }
+
+    .institute-winner{
+        font-size: 25px;
+    }
+
+    .inner-container-list{
+        width: 45vw;
+    }
+
+    @media screen and (max-width:390px) {
+        
+        .past-institute-container{
+            width:80vw;
+            /* height: 100vh; */
+            margin-top: 80px;
+        
+        }
+        .inner-container-list{
+            width: 80vw;
+        }
+
+        
+    }
