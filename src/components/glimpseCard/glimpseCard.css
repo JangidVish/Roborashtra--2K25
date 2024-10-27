@@ -70,13 +70,13 @@
 
 @media screen and (max-width:680px) {
     .mainDiv {
-        width: 10rem;
+        width: 11rem;
         height: 12rem;
     }
 
     .ImgContainer,
     .mainDiv video {
-        width: 9rem;
+        width: 10rem;
         height: 10rem;
     }
 }

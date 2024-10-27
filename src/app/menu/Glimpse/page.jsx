@@ -250,7 +250,7 @@ const WinnerSection = ({ title, winners }) => (
     <h3>{title}</h3>
     <div className='imgcam'>
       {winners.map((winner, index) => (
-        <div key={index}>
+        <div key={index} className='flex flex-col justify-center items-center '>
           <GlimpseCard imgUrl={glimpse7} />
           <p className='text-center font-[aroma]'>Position: {winner.position}</p>
           <p className='text-center font-[aroma] '>Team: {winner.team}</p>
@@ -307,23 +307,9 @@ const Gallery = () => {
         ]}
       />
       
-      <WinnerSection
-        title="Robofest Senior"
-        winners={[
-          { position: "First Winner", team: "Rudra" },
-          { position: "Second Winner", team: "Vinit Deshmukh" },
-          { position: "Third Winner", team: "Robotics" },
-        ]}
-      />
+    
       
-      <WinnerSection
-        title="Robofest Junior"
-        winners={[
-          { position: "First Winner", team: "Ranveer Rajput" },
-          { position: "Second Winner", team: "Hi-fy" },
-          { position: "Third Winner", team: "Edge Guardian" },
-        ]}
-      />
+     
 
       <h1>Our Gallery</h1>
       <div className="imgs">
@@ -343,7 +329,7 @@ const Gallery = () => {
 
       <div className='past-institute-container'>
       <h1 className='institute-winner text-center font-bold'>Past Institutes participated</h1>
-      <div className='inner-container-list flex flex-col'>
+      <div className='inner-container-list'>
         {instituteList}
       </div>
 

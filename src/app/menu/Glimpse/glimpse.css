@@ -19,7 +19,7 @@ body {
     font-family: aroma;
     text-decoration: underline;
     text-decoration-color: orangered;
-    
+
 }
 
 .imgs {
@@ -28,13 +28,6 @@ body {
     gap: 2rem;
 }
 
-@media screen and (max-width:650px) {
-    .imgs {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
-    }
-}
 
 .gallery_wrapper h3 {
     font-size: 20px;
@@ -44,46 +37,109 @@ body {
     text-align: center;
     margin-top: 50px;
 }
+
 .imgcam {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     padding-top: 20px;
 }
-.main-container-Institute{
-}
-.past-institute-container{
-    width:50vw;
-    height: 100vh;
+
+.main-container-Institute {}
+
+.past-institute-container {
+    width: auto;
+    /* height: 100vh; */
     margin-top: 80px;
+    gap: 1rem;
 
 }
-.list-container{
-    width: 45vw;
+
+.list-container {
+    position: relative;
+    left: -20vw;
+    display: flex;
+    gap: 1rem;
+    width: 40rem;
+    /* width: 45vw; */
     padding: 15px;
     display: flex;
-    margin-top: 30px;
+    margin: 15px;
+}
+
+.institute-winner {
+    font-size: 25px;
+}
+
+.inner-container-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 45vw;
+}
+
+@media screen and (max-width:1020px) {
+    .imgs {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
     }
 
-    .institute-winner{
-        font-size: 25px;
+    .imgcam {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
     }
 
-    .inner-container-list{
+    .inner-container-list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 45vw;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .imgs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    }
+
+    .imgcam {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        place-content: center;
+        align-content: center;
+    }
+
+    .list-container {
+        position: relative;
+        left: 0;
+        width: 20rem;
+    }
+
+    .inner-container-list {
         width: 45vw;
     }
 
-    @media screen and (max-width:390px) {
-        
-        .past-institute-container{
-            width:80vw;
-            /* height: 100vh; */
-            margin-top: 80px;
-        
-        }
-        .inner-container-list{
-            width: 80vw;
-        }
+}
 
-        
+
+@media screen and (max-width:390px) {
+
+    .past-institute-container {
+        width: 80vw;
+        /* height: 100vh; */
+        margin-top: 80px;
+
     }
+
+    .inner-container-list {
+        width: 45vw;
+    }
+
+
+}
