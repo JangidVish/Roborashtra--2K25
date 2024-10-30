@@ -278,7 +278,7 @@ const Gallery = () => {
   
   return (
     <div className='gallery_wrapper'>
-      <h1 className='justify-center text-center mt-[50px]'>Past Winner</h1>
+      {/* <h1 className='justify-center text-center mt-[50px]'>Past Winner</h1>
       
       <WinnerSection
         title="Cam Warrior"
@@ -309,7 +309,7 @@ const Gallery = () => {
       
     
       
-     
+      */}
 
       <h1>Our Gallery</h1>
       <div className="imgs">
