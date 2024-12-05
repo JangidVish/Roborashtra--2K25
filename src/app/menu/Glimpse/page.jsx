@@ -1,223 +1,4 @@
-// import React from 'react'
-// import "./glimpse.css";
-// import Image from "next/image"
-// import GlimpseCard from '@/components/glimpseCard/glimpseCard';
-// import glimpse1 from "../../../images/BlazeTrophy.png"
-// import glimpse7 from "../../../images/glimpse1.png"
-// import glimpse2 from "@/images/Team.png"
-// import glimpse3 from "@/images/blazeTeam.png"
-// import glimpse4 from "@/images/Trophy.png"
-// import glimpse5 from "@/images/ResqBot.png"
-// import glimpse6 from "@/images/resqArena.png"
-// import glimpse8 from "@/images/Glimpse/Audience.png"
-// import glimpse9 from "@/images/Glimpse/Evaluation2.png"
-// import glimpse10 from "@/images/Glimpse/Evalution1.png"
-// import glimpse11 from "@/images/Glimpse/Guest.png"
-// import glimpse12 from "@/images/Glimpse/Inaguration.png"
-// import glimpse13 from "@/images/Glimpse/Lead.png"
-// import glimpse14 from "@/images/Glimpse/PrincipalMam.png"
-// import glimpse15 from "@/images/Glimpse/PrizeDistribution1.png"
-// import glimpse16 from "@/images/Glimpse/Prizedistribution2.png"
-// import glimpse17 from "@/images/Glimpse/Prizesholding.png"
-// import glimpse18 from "@/images/Glimpse/Ribbin.png";
-// import glimpse19 from "@/images/Glimpse/check.png";
-// import { FaBold } from 'react-icons/fa';
 
-
-
-
-
-
-
-
-// function gallery() {
-//   return (
-
-//     <div className='gallery_wrapper'>
-      
-//         <br></br>
-//         <h1 className='justify-center text-center mt-[50px]'>Past Winner</h1>
-//         <h3>Cam Warrior</h3>
-//         <div className='imgcam'>
-//           <div>
-//             <GlimpseCard imgUrl={glimpse7} />
-//             <p className='text-center font-[aroma]'>Position: First Winner</p>
-//             <p className='text-center font-[aroma] '>Team : PHOENIX</p>
-//           </div>
-//           <div>
-//             <GlimpseCard imgUrl={glimpse7} />
-
-
-//             <p className='text-center font-[aroma]'>Position: Second Winner</p>
-//             <p className='text-center font-[aroma] '>Team : JMJM</p>
-
-//           </div>
-//           <div>
-//             <GlimpseCard imgUrl={glimpse7} />
-//             <p className='text-center font-[aroma]'>Position: Third Winner</p>
-//             <p className='text-center font-[aroma] '>Team : Vamrone</p>
-//           </div>
-
-
-
-//         </div>
-
-//         <div>
-//           <br></br>
-//           {/* <h1 className='justify-center text-center mt-[50px]'>Past Winner</h1> */}
-//           <h3>Blaze Maze</h3>
-//           <div className='imgcam'>
-//             <div>
-//               <GlimpseCard imgUrl={glimpse7} />
-//               <p className='text-center font-[aroma]'>Position: First Winner</p>
-//               <p className='text-center font-[aroma] '>Team : Vijay27</p>
-//             </div>
-//             <div>
-//               <GlimpseCard imgUrl={glimpse7} />
-
-
-//               <p className='text-center font-[aroma]'>Position: Second Winner</p>
-//               <p className='text-center font-[aroma] '>Team : Deepak Avhad</p>
-
-//             </div>
-//             <div>
-//               <GlimpseCard imgUrl={glimpse7} />
-//               <p className='text-center font-[aroma]'>Position: Third Winner</p>
-//               <p className='text-center font-[aroma] '>Team : Ranveer Rajput</p>
-//             </div>
-
-
-
-//           </div>
-//           <div>
-//             <br></br>
-
-//             <h3>ResQlympic</h3>
-//             <div className='imgcam'>
-//               <div>
-//                 <GlimpseCard imgUrl={glimpse7} />
-//                 <p className='text-center font-[aroma]'>Position: First Winner</p>
-//                 <p className='text-center font-[aroma] '>Team : Incronous</p>
-//               </div>
-//               <div>
-//                 <GlimpseCard imgUrl={glimpse7} />
-
-
-//                 <p className='text-center font-[aroma]'>Position: Second Winner</p>
-//                 <p className='text-center font-[aroma] '>Team : DRAIC</p>
-
-//               </div>
-//               <div>
-//                 <GlimpseCard imgUrl={glimpse7} />
-//                 <p className='text-center font-[aroma]'>Position: Third Winner</p>
-//                 <p className='text-center font-[aroma] '>Team : DRAIC-1</p>
-//               </div>
-              
-
-
-
-
-//             </div>
-//             <div>
-//             <br></br>
-
-//             <h3>Robofest Senior</h3>
-//             <div className='imgcam'>
-//               <div>
-//                 <GlimpseCard imgUrl={glimpse7} />
-//                 <p className='text-center font-[aroma]'>Position: First Winner</p>
-//                 <p className='text-center font-[aroma] '>Team : Rudra</p>
-//               </div>
-//               <div>
-//                 <GlimpseCard imgUrl={glimpse7} />
-
-
-//                 <p className='text-center font-[aroma]'>Position: Second Winner</p>
-//                 <p className='text-center font-[aroma] '>Team : Vinit Deshmukh</p>
-
-//               </div>
-//               <div>
-//                 <GlimpseCard imgUrl={glimpse7} />
-//                 <p className='text-center font-[aroma]'>Position: Third Winner</p>
-//                 <p className='text-center font-[aroma] '>Team : Robotics</p>
-//               </div>
-              
-//             </div>
-//             <div>
-//             <br></br>
-
-//             <h3>Robofest Junior</h3>
-//             <div className='imgcam'>
-//               <div>
-//                 <GlimpseCard imgUrl={glimpse7} />
-//                 <p className='text-center font-[aroma]'>Position: First Winner</p>
-//                 <p className='text-center font-[aroma] '>Team : Ranveer Rajput</p>
-//               </div>
-//               <div>
-//                 <GlimpseCard imgUrl={glimpse7} />
-
-
-//                 <p className='text-center font-[aroma]'>Position: Second Winner</p>
-//                 <p className='text-center font-[aroma] '>Team : Hi-fy</p>
-
-//               </div>
-//               <div>
-//                 <GlimpseCard imgUrl={glimpse7} />
-//                 <p className='text-center font-[aroma]'>Position: Third Winner</p>
-//                 <p className='text-center font-[aroma] '>Team : Edge Gaurdian</p>
-//               </div>
-              
-
-
-
-
-//             </div>
-
-
-
-
-//           </div>
-//           <br></br>
-//           <h1 >Our Gallery</h1>
-//           <div className="imgs">
-//             <GlimpseCard imgUrl={glimpse7} />
-//             <GlimpseCard imgUrl={glimpse2} />
-//             <GlimpseCard imgUrl={glimpse3} />
-//             <GlimpseCard imgUrl={glimpse1} />
-//             <GlimpseCard imgUrl={glimpse4} />
-//             <GlimpseCard imgUrl={glimpse5} />
-//             <GlimpseCard imgUrl={glimpse6} />
-//             <GlimpseCard imgUrl={glimpse8} />
-//             <GlimpseCard imgUrl={glimpse9} />
-//             <GlimpseCard imgUrl={glimpse10} />
-//             <GlimpseCard imgUrl={glimpse11} />
-//             <GlimpseCard imgUrl={glimpse12} />
-//             <GlimpseCard imgUrl={glimpse13} />
-//             <GlimpseCard imgUrl={glimpse14} />
-//             <GlimpseCard imgUrl={glimpse15} />
-//             <GlimpseCard imgUrl={glimpse15} />
-//             <GlimpseCard imgUrl={glimpse16} />
-//             <GlimpseCard imgUrl={glimpse17} />
-//             <GlimpseCard imgUrl={glimpse18} />
-//             <GlimpseCard imgUrl={glimpse19} />
-
-
-
-
-//             {/* <img src={img1} alt="" />
-//             <img src={img2} alt="" />
-//             <img src={img3} alt="" />
-//             <img src={img4} alt="" />
-//             <img src={img5} alt="" />
-//             <img src={teamMeeting} alt="" />
-//             <img src={teamMeeting} alt="" /> */}
-//           </div>
-//       </div>
-//     </div>
-//         );
-// };
-
-//         export default gallery;
 import React from 'react';
 import "./glimpse.css";
 import Image from "next/image";
@@ -263,13 +44,48 @@ const WinnerSection = ({ title, winners }) => (
 
 
 const Gallery = () => {
+  // const institute = [
+  //   { instituteName: "Pimpri Chinchwad College of Engineering and Research" },
+  //   { instituteName: "Pimpri Chinchwad College of Engineering" },
+  //   { instituteName: "AISSMS College of Engineering" },
+  //   { instituteName: "Sinhgad College of Engineering" },
+  //   { instituteName: "MIT College of Engineering" },
+  // ]
   const institute = [
     { instituteName: "Pimpri Chinchwad College of Engineering and Research" },
     { instituteName: "Pimpri Chinchwad College of Engineering" },
     { instituteName: "AISSMS College of Engineering" },
     { instituteName: "Sinhgad College of Engineering" },
     { instituteName: "MIT College of Engineering" },
-  ]
+    // { instituteName: "Pimpri Chinchwad College Of Engineering and Research (PCCOER), Pune" },
+    { instituteName: "Pimpri Chinchwad Education Trust (PCET), Pune" },
+    { instituteName: "Indira College of Engineering and Management (ICEM), Maharashtra" },
+    { instituteName: "National Institute of Technology (NIT), Trichy" },
+    { instituteName: "Dr. D. Y. Patil College of Engineering (DYPCOE), Akurdi, Pune" },
+    { instituteName: "Army Institute of Technology (AIT), Pune" },
+    { instituteName: "SND College of Engineering & Research Center (SNDCOER), Nashik, Maharashtra" },
+    { instituteName: "Sandip Foundation" },
+    { instituteName: "Vidyavardhaka College of Engineering, Mysore" },
+    { instituteName: "MKSSS's Cummins College of Engineering for Women (CCOEW), Pune" },
+    { instituteName: "Vivekanand Education Society's Institute Of Technology (VESIT), Mumbai" },
+    { instituteName: "Pimpri Chinchwad University" },
+    { instituteName: "MIT World Peace University, Pune, Maharashtra" },
+    { instituteName: "Savitribai Phule Pune University (SPPU), Pune" },
+    { instituteName: "COEP Technological University, Pune, Maharashtra" },
+    { instituteName: "College of Engineering (COEP), Pune" },
+    { instituteName: "Veermata Jijabai Technological Institute (VJTI), Mumbai" },
+    { instituteName: "PCET's Nutan College of Engineering and Research, Pune, Maharashtra" },
+    { instituteName: "PCET's Nutan Maharashtra Institute of Engineering and Technology (PNMIET), Talegaon Dabhade, Maharashtra" },
+    { instituteName: "Marathwada Mitra Mandal's College of Engineering (MMCOE), Pune" },
+   
+    { instituteName: "JSPM Rajarshi Shahu College of Engineering, Tathawade, Pimpri-Chinchwad, Maharashtra" },
+    { instituteName: "JSPM's Rajarshi Shahu College of Engineering (JSPMRSCOE), Pune" },
+    { instituteName: "Smt Kashibai Navale College of Engineering (SKNCE), Pune" },
+    { instituteName: "Vishwakarma Institute of Technology, Pune, Maharashtra" },
+    { instituteName: "Novel International School" },
+    { instituteName: "P K Technical Campus (PKTC), Pune, Maharashtra" }
+  ];
+  
 
   const instituteList = institute.map((eachinstitute, index) =>
     <div className='list-container bg-zinc-800 hover:bg-zinc-600 rounded-lg font-semibold' key={index}>{eachinstitute.instituteName}</div>
@@ -310,6 +126,8 @@ const Gallery = () => {
     
       
       */}
+      <br></br>
+      <br></br>
 
       <h1>Our Gallery</h1>
       <div className="imgs">

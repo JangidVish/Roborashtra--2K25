@@ -28,6 +28,23 @@ body {
     gap: 2rem;
 }
 
+@media screen and (max-width:650px) {
+    .imgs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+
+
+    }
+    .imgcam{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        place-items: center;
+        justify-items: center;
+        justify-content: center;
+    }
+}
 
 .gallery_wrapper h3 {
     font-size: 20px;
@@ -43,6 +60,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     padding-top: 20px;
+   
 }
 
 .main-container-Institute {}
