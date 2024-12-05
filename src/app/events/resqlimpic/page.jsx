@@ -30,7 +30,7 @@ Put your skills to the test and become the ResQlympic champion! <br />
         </div>
         </p>
         <div className="action_btn">
-          <Btn2 link={"/Resqlympic.pdf"} />
+          <Btn2 link={"/ResqlympicRuleBook25.pdf"} />
           <Btn1 text={"Register"} link={"https://unstop.com/p/resqlympics-pimpri-chinchwad-college-of-engineering-and-researchpccoer-pune-1172927"} />
         </div>
       </div>
