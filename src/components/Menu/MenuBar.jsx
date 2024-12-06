@@ -11,6 +11,7 @@ const options = [
   { text: "Our Team", link: "/menu/teams" },
   { text: "Our Clan", link: "/menu/clan" },
   { text: "Contact", link: "/menu/Contact" },
+  { text: "Past Participant", link: "/menu/Past" }
 ];
 
 const MenuBar = () => {

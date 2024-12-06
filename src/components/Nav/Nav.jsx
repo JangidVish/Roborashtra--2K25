@@ -16,6 +16,7 @@ import Sponsornav from "../NavCard/images/Sponsornav.png";
 import Clannav from "../NavCard/images/Clannav.png";
 import Contactnav from "../NavCard/images/contact.jpg"
 import glimpsenav from "@/components/NavCard/images/glimpsenav.png";
+import Past from "../NavCard/images/Ourclanlogo.jpg"
 // import Unstop from "./images/Unstop.jpg"; // Assuming the correct path
 
 
@@ -57,6 +58,7 @@ const options = [
     link: "/menu/Contact",
     img:Contactnav
   },
+  
 ];
 
 const Nav = () => {
@@ -67,7 +69,7 @@ const Nav = () => {
       <nav >
         <Link href="/" className="Nav">
          
-          <Image src={smallLogo} width={60} height={60} alt="" srcset=""  id="smallLogo"/>
+          <Image src={smallLogo} width={50} height={50} alt="" srcset=""  id="smallLogo"/>
           <Image src={logo} width={275} height={100} alt="logo" id="logo"/>
         </Link>
 

@@ -3,7 +3,7 @@ body {
     overflow-y: scroll;
     scroll-behavior: smooth;
     scroll-padding-top: 5rem; /* Adjust for sticky headers */
-    font-family: 'Aroma', Arial, sans-serif; /* Use fallback fonts */
+    font-family:  Arial, sans-serif; /* Use fallback fonts */
     margin: 0;
     padding: 0;
 }
@@ -16,6 +16,7 @@ body {
     gap: 2rem;
     width: 100%;
     padding: 2rem 1rem; 
+    /* width: 100vw; */
     /* Add padding for better spacing */
 }
 
