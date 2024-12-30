@@ -57,14 +57,17 @@ const Gallery = () => {
               Institutes Outoff-Maharashtra
             </h2>
             <ul className="space-y-3">
-              {outsideMaharashtra.map((institute, index) => (
-                <li
-                  key={index}
-                  className="p-4 bg-gray-600 hover:bg-orange-600 transition-colors duration-300 rounded-lg shadow-lg"
-                >
-                  {institute.instituteName}
-                </li>
-              ))}
+            {outsideMaharashtra
+  .slice() // Create a shallow copy to avoid mutating the original array
+  .sort((a, b) => a.instituteName.localeCompare(b.instituteName)) // Sort alphabetically
+  .map((institute, index) => (
+    <li
+      key={index}
+      className="p-4 bg-gray-600 hover:bg-orange-600 transition-colors duration-300 rounded-lg shadow-lg"
+    >
+      {institute.instituteName}
+    </li>
+  ))}
             </ul>
           </div>
           <br></br>
@@ -73,14 +76,17 @@ const Gallery = () => {
               Institutes In-Maharashtra
             </h2>
             <ul className="space-y-3">
-              {inMaharashtra.map((institute, index) => (
-                <li
-                  key={index}
-                  className="p-4 bg-gray-700  hover:bg-orange-600 transition-colors duration-300 rounded-lg shadow-lg"
-                >
-                  {institute.instituteName}
-                </li>
-              ))}
+            {inMaharashtra
+  .slice() // Create a shallow copy to avoid mutating the original array
+  .sort((a, b) => a.instituteName.localeCompare(b.instituteName)) // Sort alphabetically
+  .map((institute, index) => (
+    <li
+      key={index}
+      className="p-4 bg-gray-600 hover:bg-orange-600 transition-colors duration-300 rounded-lg shadow-lg"
+    >
+      {institute.instituteName}
+    </li>
+  ))}
             </ul>
           </div>
   

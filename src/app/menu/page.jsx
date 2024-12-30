@@ -11,7 +11,7 @@ import { ImCross } from "react-icons/im";
 
 const Cards = () => {
   const calculateTimeLeft = () => {
-    const endDate = new Date("2025-01-27");
+    const endDate = new Date("2025-01-31");
     const difference = endDate - new Date();
     let timeLeft = {};
 

@@ -1,5 +1,6 @@
 
-import React from 'react';
+"use client"
+import React, { useState } from 'react';
 import "./glimpse.css";
 import Image from "next/image";
 import GlimpseCard from '@/components/glimpseCard/glimpseCard';
@@ -26,31 +27,38 @@ import glimpse18 from "@/images/Glimpse/Ribbin.png";
 import glimpse19 from "@/images/Glimpse/check.png";
 
 const Gallery = () => {
-  const institute = [
-    { instituteName: "Pimpri Chinchwad College of Engineering and Research" },
-    { instituteName: "Pimpri Chinchwad College of Engineering" },
-    { instituteName: "AISSMS College of Engineering" },
-    { instituteName: "Sinhgad College of Engineering" },
-    { instituteName: "MIT College of Engineering" },
-    { instituteName: "Pimpri Chinchwad Education Trust (PCET), Pune" },
-    { instituteName: "Indira College of Engineering and Management (ICEM), Maharashtra" },
-    // Additional institutes can be included here if necessary
-  ];
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  // Function to handle image click
+  const handleImageClick = (imgUrl) => {
+    setSelectedImage(imgUrl);
+  };
+
+  // Function to close the overlay
+  const closeOverlay = () => {
+    setSelectedImage(null);
+  };
 
   return (
     <div className='gallery_wrapper'>
-      
       <h1>Our Gallery</h1>
       <div className="imgs">
-        {[
-          glimpse7, glimpse2, glimpse3, glimpse1, glimpse4, glimpse5, glimpse6,
-          glimpse8, glimpse9, glimpse10, glimpse11, glimpse12, glimpse13,
-          glimpse14, glimpse15, glimpse16, glimpse17, glimpse18, glimpse19,
-        ].map((imgUrl, index) => (
-          <GlimpseCard key={index} imgUrl={imgUrl} />
+        {[glimpse7, glimpse2, glimpse3, glimpse1, glimpse4, glimpse5, glimpse6, glimpse8, glimpse9, glimpse10, glimpse11, glimpse12, glimpse13, glimpse14, glimpse15, glimpse16, glimpse17, glimpse18, glimpse19].map((imgUrl, index) => (
+          <div key={index} className="image-container" onClick={() => handleImageClick(imgUrl)}>
+            <GlimpseCard imgUrl={imgUrl} />
+          </div>
         ))}
       </div>
-     
+
+      {/* Overlay for enlarged image */}
+      {selectedImage && (
+        <div className="overlay" onClick={closeOverlay}>
+          <div className="overlay-content" onClick={(e) => e.stopPropagation()}>
+            <button className="close-button" onClick={closeOverlay}>×</button>
+            <Image src={selectedImage} alt="Enlarged view" layout="intrinsic" width={800} height={600} />
+          </div>
+        </div>
+      )}
     </div>
   );
 };
