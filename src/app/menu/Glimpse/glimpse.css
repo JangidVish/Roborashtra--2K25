@@ -77,6 +77,46 @@ body {
     transform: scale(1.05);
 }
 
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .overlay-content {
+    position: relative;
+    background: lightgray;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: -20px;
+    right: -4rem;
+    background: none;
+    border: none;
+    font-size: 36px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .imgs .image-container {
+    cursor: pointer;
+  }
+  
+  .imgs .image-container:hover {
+    opacity: 0.8;
+  }
+  
+
 /* Hover effects for images */
 .imgs img, .imgcam img {
     width: 100%;
