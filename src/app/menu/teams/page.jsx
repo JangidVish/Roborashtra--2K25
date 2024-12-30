@@ -38,7 +38,7 @@ export default function Teams() {
     //   Coming Soon </div>
     <div className="team" >
     <div className="team_wrapper">
-      <p className="text-center">(Hover or Click Cards to see Contact details)</p>
+      <p className="text-center">(Hover or Click Cards to see Contact)</p>
 
 
       <h2 className="text-center text-lg">Event Co-ordinator</h2>
