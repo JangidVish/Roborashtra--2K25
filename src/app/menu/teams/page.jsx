@@ -5,8 +5,8 @@ import "./teams.css";
 
 const coordinator = "https://drive.google.com/uc?export=download&id=1i_kNhK8CKupiqRdNPnnam5bN_CLnGFGj"
 const lead="https://drive.google.com/uc?export=download&id=1ZxT1U-h6MnztTmpfG0hma7mpAcdOR-Qg"
-const colead="https://drive.google.com/uc?export=download&id=14hQYI3VO8vVxtU6xqpFRGfxJ4i87hM-h"
-const colead2 = "https://drive.google.com/uc?export=download&id=1YM6V3CQ5gMoeTfPlsYRRA4E1vjRAW2hz"
+const colead="https://drive.google.com/uc?export=download&id=1yOOTeMHiUIvyZbYa95hf3dACukaKm_OO"
+const colead2 = "https://drive.google.com/uc?export=download&id=1rwiu5FKbF1RQ3UkHMOz0weGvomBqxAIP"
 
 const designHead = "https://drive.google.com/uc?export=download&id=1tzGJZHb_4bqjauRuy-loY6_oBW-Sm5A4"
 const prProfessionalHead1="https://drive.google.com/uc?export=download&id=1qtvDZJ1xVSv7CbkGR1sf3xBuLHTovIJZ"
@@ -61,14 +61,14 @@ export default function Teams() {
       <Member image={manganementHead2} email={""} linkedIn={""} phnNo={8265005103}/>
       <Member image={financeHead} email={""} linkedIn={""} phnNo={9172008630}/>
       <Member image={webHead} email={""} linkedIn={""} phnNo={9172008630}/>
-      <Member image={cadCamHead} email={""} linkedIn={""} phnNo={""}/>
-      <Member image={workshopcoHead} email={""} linkedIn={""} phnNo={""}/>
-      <Member image={manganementCohead} email={""} linkedIn={""} phnNo={""}/>
-      <Member image={psCohead} email={""} linkedIn={""} phnNo={""}/>
-      <Member image={designCohead} email={""} linkedIn={""} phnNo={""}/>
-      <Member image={provisionalCohead} email={""} linkedIn={""} phnNo={""}/>
-      <Member image={professionalCohead} email={""} linkedIn={""} phnNo={""}/>
-      <Member image={cotentCohead} email={""} linkedIn={""} phnNo={""}/>
+      <Member image={cadCamHead} email={""} linkedIn={""} phnNo={8847747922}/>
+      <Member image={workshopcoHead} email={""} linkedIn={""} phnNo={9975190027}/>
+      <Member image={manganementCohead} email={""} linkedIn={""} phnNo={7887992517}/>
+      <Member image={psCohead} email={""} linkedIn={""} phnNo={9307727077}/>
+      <Member image={designCohead} email={""} linkedIn={""} phnNo={9527481956}/>
+      <Member image={provisionalCohead} email={""} linkedIn={""} phnNo={9307727077}/>
+      <Member image={professionalCohead} email={""} linkedIn={""} phnNo={7498193847}/>
+      <Member image={cotentCohead} email={""} linkedIn={""} phnNo={9699983793}/>
      
 
       </div>
