@@ -5,7 +5,7 @@ import "./teams.css";
 
 const coordinator = "https://drive.google.com/uc?export=download&id=1i_kNhK8CKupiqRdNPnnam5bN_CLnGFGj"
 const lead="https://drive.google.com/uc?export=download&id=1ZxT1U-h6MnztTmpfG0hma7mpAcdOR-Qg"
-const colead="https://drive.google.com/uc?export=download&id=1yOOTeMHiUIvyZbYa95hf3dACukaKm_OO"
+const colead="https://drive.google.com/uc?export=download&id=1s264yNvN0GIAhin0j0b10ElhGaPrz9md"
 const colead2 = "https://drive.google.com/uc?export=download&id=1rwiu5FKbF1RQ3UkHMOz0weGvomBqxAIP"
 
 const designHead = "https://drive.google.com/uc?export=download&id=1tzGJZHb_4bqjauRuy-loY6_oBW-Sm5A4"
@@ -14,7 +14,7 @@ const psHead="https://drive.google.com/uc?export=download&id=19ozId6kf-UZFiVjCHd
 const manganementHead1="https://drive.google.com/uc?export=download&id=1M2VkA5ceNe_qA4EJol7qVhPlwJaKbgT_"
 const prProfessionalHead2="https://drive.google.com/uc?export=download&id=15VnheBm64zJlzNJZWjrYITSmjD_vnIeg"
 const manganementHead2="https://drive.google.com/uc?export=download&id=1rwiu5FKbF1RQ3UkHMOz0weGvomBqxAIP"
-const financeHead="https://drive.google.com/uc?export=download&id=1s264yNvN0GIAhin0j0b10ElhGaPrz9md"
+// const financeHead="https://drive.google.com/uc?export=download&id=1s264yNvN0GIAhin0j0b10ElhGaPrz9md"
 const webHead="https://drive.google.com/uc?export=download&id=1yOOTeMHiUIvyZbYa95hf3dACukaKm_OO"
 const cadCamHead="https://drive.google.com/uc?export=download&id=1nzJlWt09SLlVLeng2zVXOLTOohvFPDDJ"
 const workshopcoHead="https://drive.google.com/uc?export=download&id=1oWu0AL2E4BOUKyc1_S8KqJFTZMMv4lzA"
@@ -59,7 +59,7 @@ export default function Teams() {
       <Member image={psHead} email={""} linkedIn={""} phnNo={8767835399}/>
       <Member image={manganementHead1} email={""} linkedIn={""} phnNo={9075219569}/>
       <Member image={manganementHead2} email={""} linkedIn={""} phnNo={8265005103}/>
-      <Member image={financeHead} email={""} linkedIn={""} phnNo={9172008630}/>
+      {/* <Member image={financeHead} email={""} linkedIn={""} phnNo={9172008630}/> */}
       <Member image={webHead} email={""} linkedIn={""} phnNo={9172008630}/>
       <Member image={cadCamHead} email={""} linkedIn={""} phnNo={8847747922}/>
       <Member image={workshopcoHead} email={""} linkedIn={""} phnNo={9975190027}/>
