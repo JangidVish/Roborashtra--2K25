@@ -3,30 +3,27 @@ import "./teams.css";
 
 
 
-const coordinator = "https://drive.google.com/uc?export=download&id=1e3pcRVa4rf35dEW_-Lnuh9gA2U_BTsmh"
-const lead="https://drive.google.com/uc?export=download&id=13BZo7bdTqDuoDZEgKWo7AJLJ4fDxTuQk"
+const coordinator = "https://drive.google.com/uc?export=download&id=1i_kNhK8CKupiqRdNPnnam5bN_CLnGFGj"
+const lead="https://drive.google.com/uc?export=download&id=1ZxT1U-h6MnztTmpfG0hma7mpAcdOR-Qg"
 const colead="https://drive.google.com/uc?export=download&id=14hQYI3VO8vVxtU6xqpFRGfxJ4i87hM-h"
 const colead2 = "https://drive.google.com/uc?export=download&id=1YM6V3CQ5gMoeTfPlsYRRA4E1vjRAW2hz"
-const chetan = "https://drive.google.com/uc?export=download&id=1gzH0ZZxR1E8BkWDItnTk721v0WUCh5sK";
-const dnyanesh = "https://drive.google.com/uc?export=download&id=1rZ3aggd63viXnRrpJ8S9vWRiAZhYrC9Q";
-const manas = "https://drive.google.com/uc?export=download&id=1P9B3oT8GPIX5OYYSAMYDT9PAAXbmdx5Z";
-const manas_pr = "https://drive.google.com/uc?export=download&id=1xUCTAczAmZirZdok3rOvLCpZ3ht1s678";
-const manasi = "https://drive.google.com/uc?export=download&id=1cX2bOS0a2B9CXBuZKEwAPesD_0OzHVl7";
-const mayur = "https://drive.google.com/uc?export=download&id=1IWt97QUYU0puoJDQXaAQ1b2i9J8X16fn";
-const mehul = "https://drive.google.com/uc?export=download&id=1fT68-wvErxHXX7Ncsy4ug7wd9UufkgFE";
-const samrudhi = "https://drive.google.com/uc?export=download&id=1Hcc0rLRYka0HsX-59ZdQ3Oe2yO912xYV";
 
-const vedant = "https://drive.google.com/uc?export=download&id=14fTxlYoJpgLi_cBP3T6x3MyMSEf1XQmA";
-const vishal = "https://drive.google.com/uc?export=download&id=1FIBaedrns-ad0_CJAfJ9KtCp-bNjO_7b";
-const shrushti = "https://drive.google.com/uc?export=download&id=1yip3hjKCYRmLcN7wq0JcSuNyw-zG0KR_";
-const srushti = "https://drive.google.com/uc?export=download&id=1BPH5ocDjW6m6zcJHstYqZcxK-BLxCBzb";
-const vedantRaut = "https://drive.google.com/uc?export=download&id=1_NCNC0NZOTTkWdNMkUkAU8E0HGLusjl4";
-const aastha = "https://drive.google.com/uc?export=download&id=19GYnFV-G792CUTvDxJVBuQo00VkfVKWX";
-const avishkar = "https://drive.google.com/uc?export=download&id=1349abd4F_J9qud77hTcTEhjyswAHW7lQ"
-const chandrakantBM = "https://drive.google.com/uc?export=download&id=1BG-MWvTq62l3CrV14waDueXe_9cpmXOB";
-const dijvijay = "https://drive.google.com/uc?export=download&id=1TZALd41jeKOvyGKkJguPxxqcWhif2_KG";
-
-
+const designHead = "https://drive.google.com/uc?export=download&id=1tzGJZHb_4bqjauRuy-loY6_oBW-Sm5A4"
+const prProfessionalHead1="https://drive.google.com/uc?export=download&id=1qtvDZJ1xVSv7CbkGR1sf3xBuLHTovIJZ"
+const psHead="https://drive.google.com/uc?export=download&id=19ozId6kf-UZFiVjCHdjnIdTl0LolREEZ"
+const manganementHead1="https://drive.google.com/uc?export=download&id=1M2VkA5ceNe_qA4EJol7qVhPlwJaKbgT_"
+const prProfessionalHead2="https://drive.google.com/uc?export=download&id=15VnheBm64zJlzNJZWjrYITSmjD_vnIeg"
+const manganementHead2="https://drive.google.com/uc?export=download&id=1rwiu5FKbF1RQ3UkHMOz0weGvomBqxAIP"
+const financeHead="https://drive.google.com/uc?export=download&id=1s264yNvN0GIAhin0j0b10ElhGaPrz9md"
+const webHead="https://drive.google.com/uc?export=download&id=1yOOTeMHiUIvyZbYa95hf3dACukaKm_OO"
+const cadCamHead="https://drive.google.com/uc?export=download&id=1nzJlWt09SLlVLeng2zVXOLTOohvFPDDJ"
+const workshopcoHead="https://drive.google.com/uc?export=download&id=1oWu0AL2E4BOUKyc1_S8KqJFTZMMv4lzA"
+const manganementCohead="https://drive.google.com/uc?export=download&id=1hcIdqt4jv7z7l8ukXi7VuD03godGfNsV"
+const psCohead="https://drive.google.com/uc?export=download&id=1xiMYQuFjmkTgZxLWgaekvFzbqvvibhCy"
+const designCohead="https://drive.google.com/uc?export=download&id=10GgbyN0jEeyIC2hmFlZt8bn09hx6QgcF"
+const provisionalCohead="https://drive.google.com/uc?export=download&id=1yJp-SMZQBWY-pCpkvDeyxllRGCPzMFxJ "
+const professionalCohead="https://drive.google.com/uc?export=download&id=1Pku3BwYO-rGxZK_XRo_5VbJ2nS5bOzp3"
+const cotentCohead="https://drive.google.com/uc?export=download&id=1HhVIcNhNeqnkZzhLvPpUQMpuGmLE5ufJ"
 
 export default function Teams() {
 
@@ -56,22 +53,24 @@ export default function Teams() {
 
       <h2 className="text-center text-lg">Head & Co-Head</h2>
       <div className="team_row">
-      <Member image={vishal} email={"vishal.jangid_it22@pccoer.in"} linkedIn={"https://www.linkedin.com/in/vishal-jangid-359b54259/"} phnNo={9172008630}/>
-           
-          
-            <Member image={vedant} email={"atharva.bhorade_22@pccoer.in"} linkedIn={"https://www.linkedin.com/in/connect-vedant-patil/"} phnNo={7410133456}/>
-    
-        
-        
-        
-            <Member image={manas_pr} email={"shreyash.kunjir_it22@pccoer.in"} linkedIn={"https://www.linkedin.com/in/shreyash-kunjir-84a47a259/"} phnNo={9307727077}/>
-            <Member image={manasi} email={"siddhi.kul_comp22@pccoer.in"} linkedIn={"https://www.linkedin.com/in/siddhi-kul-2b7163253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"} />
-           
-            <Member image={chetan} email={"madhav.surwase_comp22@pccoer.in"} phnNo={9075219569} linkedIn={"https://www.linkedin.com/in/madhav-surwase-072510259"}/>
-            <Member image={mayur} linkedIn={"https://www.linkedin.com/in/atharv-bhagwat-5b68b8259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"} email={"atharva.bhagwat_comp22@pccoer.in"}  phnNo={8767835399}/>
-            <Member image={mehul} phnNo={8847747922} linkedIn={"https://www.linkedin.com/in/sumeet-g-52051128b"} email={"sumeet.gaware_mech22@pccoer.in"} />
-            <Member image={dijvijay} phnNo={9975190027} linkedIn={"https://www.linkedin.com/in/digvijay-patil-a8b156203/"}/>
-           
+      <Member image={designHead} email={""} linkedIn={""} phnNo={7410133456}/>
+      <Member image={prProfessionalHead1} email={""} linkedIn={""} phnNo={9356944819}/>
+      <Member image={prProfessionalHead2} email={""} linkedIn={""} phnNo={8788158081}/>
+      <Member image={psHead} email={""} linkedIn={""} phnNo={8767835399}/>
+      <Member image={manganementHead1} email={""} linkedIn={""} phnNo={9075219569}/>
+      <Member image={manganementHead2} email={""} linkedIn={""} phnNo={8265005103}/>
+      <Member image={financeHead} email={""} linkedIn={""} phnNo={9172008630}/>
+      <Member image={webHead} email={""} linkedIn={""} phnNo={9172008630}/>
+      <Member image={cadCamHead} email={""} linkedIn={""} phnNo={""}/>
+      <Member image={workshopcoHead} email={""} linkedIn={""} phnNo={""}/>
+      <Member image={manganementCohead} email={""} linkedIn={""} phnNo={""}/>
+      <Member image={psCohead} email={""} linkedIn={""} phnNo={""}/>
+      <Member image={designCohead} email={""} linkedIn={""} phnNo={""}/>
+      <Member image={provisionalCohead} email={""} linkedIn={""} phnNo={""}/>
+      <Member image={professionalCohead} email={""} linkedIn={""} phnNo={""}/>
+      <Member image={cotentCohead} email={""} linkedIn={""} phnNo={""}/>
+     
+
       </div>
     </div>
   </div>
