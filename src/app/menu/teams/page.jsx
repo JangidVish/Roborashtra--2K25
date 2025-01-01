@@ -21,7 +21,7 @@ const workshopcoHead="https://drive.google.com/uc?export=download&id=1oWu0AL2E4B
 const manganementCohead="https://drive.google.com/uc?export=download&id=1hcIdqt4jv7z7l8ukXi7VuD03godGfNsV"
 const psCohead="https://drive.google.com/uc?export=download&id=1xiMYQuFjmkTgZxLWgaekvFzbqvvibhCy"
 const designCohead="https://drive.google.com/uc?export=download&id=10GgbyN0jEeyIC2hmFlZt8bn09hx6QgcF"
-const provisionalCohead="https://drive.google.com/uc?export=download&id=1yJp-SMZQBWY-pCpkvDeyxllRGCPzMFxJ "
+const provisionalCohead="https://drive.google.com/uc?export=download&id=1yJp-SMZQBWY-pCpkvDeyxllRGCPzMFxJ"
 const professionalCohead="https://drive.google.com/uc?export=download&id=1Pku3BwYO-rGxZK_XRo_5VbJ2nS5bOzp3"
 const cotentCohead="https://drive.google.com/uc?export=download&id=1HhVIcNhNeqnkZzhLvPpUQMpuGmLE5ufJ"
 
