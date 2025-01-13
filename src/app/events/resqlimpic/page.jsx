@@ -25,9 +25,21 @@ Put your skills to the test and become the ResQlympic champion! <br />
         <button className="whatsapp">Contact Us On Whatsapp</button>
         </a>
         
-        <a href="https://youtu.be/I1SMKisHUbM?si=OSec1umXgSNuwO0O" rel="noopener noreferrer" target="_blank">
+        {/* <a href="https://youtu.be/I1SMKisHUbM?si=OSec1umXgSNuwO0O" rel="noopener noreferrer" target="_blank">
         <button className="youtube" disabled>Tutorial Video</button>
-        </a>
+        </a> */}
+        <a
+  href="https://youtu.be/I1SMKisHUbM?si=OSec1umXgSNuwO0O"
+  className="youtube"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-disabled="true"
+
+>
+  Tutorial Video 
+</a>
+
+        
         </div>
         </p>
         <div className="action_btn">
