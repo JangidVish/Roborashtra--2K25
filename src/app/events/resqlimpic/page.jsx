@@ -20,6 +20,7 @@ One thrilling round: Operate your robot remotely from a separate room using a li
 Navigate obstacles: Steer through the arena to reach and rescue hostages, delivering them to the safe zone. <br />
 Put your skills to the test and become the ResQlympic champion! <br />
         <h2 className="headContact">For any event related query <br />Contact Atharva(Problem Statement Head) : 8767835399</h2>
+        <span className="text-red-500 font-bold">NO Refund available</span>
         <div className="wpYoutube">
                   <a href="http://wa.me/+919307727077" rel="noopener noreferrer" target="_blank">
         <button className="whatsapp">Contact Us On Whatsapp</button>
@@ -42,10 +43,10 @@ Put your skills to the test and become the ResQlympic champion! <br />
         
         </div>
         </p>
-        <div className="action_btn">
+        {/* <div className="action_btn">
           <Btn2 link={"/ResqlympicRuleBook25.pdf"} />
           <Btn1 text={"Register"} link={"https://unstop.com/p/resqlympics-pimpri-chinchwad-college-of-engineering-and-researchpccoer-pune-1172927"} />
-        </div>
+        </div> */}
       </div>
       {/* <Image src={EventChar} alt="robowar" width={400} height={200} /> */}
     </div>
