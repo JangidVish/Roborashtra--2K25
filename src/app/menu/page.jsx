@@ -57,8 +57,8 @@ const Cards = () => {
   return (
     <>
       {showPopup && (
-        <div className="popup-overlay bg-black  ">
-          <div className="popup-content relative bg-black">
+        <div className="popup-overlay ">
+          <div className="popup-content">
             <ImCross className="close-icon" onClick={closePopup} />
             <Image src={popUpImage} alt="Event Popup"  style={{
                 width: "80%",
