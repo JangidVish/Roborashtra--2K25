@@ -22,6 +22,7 @@ Learn and inspire alongside passionate tech minds. <br />
 Open to all: No matter your experience, students of all ages are welcome! <br />
 Do not miss this thrilling event - register now and make your mark in the world of robotics! <br />
             <h2 className="headContact">For any event related query <br />Contact Atharva(Problem Statement Head) : 8767835399</h2>
+            <span className="text-red-500 font-bold">NO Refund available</span>
           </p>
           <a href="http://wa.me/+919307727077" rel="noopener noreferrer" target="_blank">
             <button className="whatsapp">Contact Us On Whatsapp</button>
