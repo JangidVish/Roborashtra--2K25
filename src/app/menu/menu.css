@@ -16,7 +16,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: 999;
+  z-index: 99;
   background-color: rgba(0, 0, 0, 0.805);
   left: 0;
   top: 0;
@@ -168,4 +168,49 @@
   margin-top: 0;
   margin-bottom: 3rem;
   color: #e83717;
+}
+
+
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8); /* Dark overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Ensures center alignment */
+  z-index: 9999;
+}
+
+.popup-content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%; /* Responsive sizing */
+  height: 90%; /* Adjust as needed */
+  max-width: 600px; /* Optional max width */
+  max-height: 90vh; /* Ensure it fits in the viewport */
+  background: none;
+  overflow: hidden;
+}
+
+.popup-image {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Ensures the image scales nicely */
+}
+
+.close-icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 10000; /* Ensure it's above everything else */
 }
